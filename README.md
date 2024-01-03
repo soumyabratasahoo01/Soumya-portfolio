@@ -1,2 +1,2 @@
 # project1
-Semple using Html and Css
+Semple using Html, Css and JavaScript 
