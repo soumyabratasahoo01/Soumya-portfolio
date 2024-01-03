@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soumyabrata sahoo</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/eb8284fcd1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+  <div class="header">
+        <nav>
+         <img src="image/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu"></i>
+        </nav>
+      </div>
+    </header>
+    <!-----------home page--------- -->
+    <main>
+    <section class="header" id="Home">
+      <div class="container"> 
+      <div class="header-Text">
+       <h1>Hi, i'am <span>soumya</span><br>brata sahoo </h1>
+       <h2>Frontend Developer</h2>
+      </div>
+   </div>
+    </section>
+    
+    <!-----------about-------------->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/About.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>hye,
+                        a small interduse by me i am soumyabrata sahoo.
+                        Intend to build a career with leading corporate of hi-tech environment with committed & 
+                        dedicated people, which will help me to explore myself fully to realize my potential and continuously 
+                        improve in that environment.
+                    </p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>CORE JAVA -</span> Variable, Data type, Loop, Arrays, Oops, String, Exception, package.</li>
+                            <li><span>SQL - </span> Queries, Sub queries. inner and outer joins </li>
+                            <li><span>MS OFFICE - </span> MS Word, MS Excel.</li>
+                            <li><span>Web Technologies = </span> HTML 5, CSS </li>
+                            <li><span>JavaScript- </span></li>
+                            <li><span>React Js -</span></li>
+                            <li><span>Angular -</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>PROFESSIONAL TRAINING</span><br>Classic java Development Jspiders, Bhubaneswar</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>BSE  Marks-61% PassOut-2021</span><br> Gandhi Smruti Ucha Bidyapitha, Katikata.<br></li>
+                            <li><span>CHSE 51%</span><br>Bijupattnaik college of science & technology, Jajpur</li>
+                            <li><span>Siksha "'O'" Anusandhan (deemed to be University)  </span><br>Institute of Technical Education and Research (ITER), Bhubaneswar</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------------services----->
+    <section id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>front-end developer</h2>
+                    <p>i am soumyabrata sahoo i am a fresher to seaching a opperchunity // to improve my skill </p>
+                    <a href="#">Learn more </a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> classic java developer</h2>
+                    <p></p>
+                    <a href="#">Learn more </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- html / css projects-->
+    <section id="project">
+        <div class="container">
+          <h1 class="sub-title">Project</h1>
+          <div class="project_container">
+            <div class="grid_item">
+              <div class="card">
+                <img src="image/project1.png" alt="Project 1" />
+                <div class="card_content">
+                  <h3>Tribute Website</h3>
+                  <p>A.P.J missile man real indian perfet muslim </p>
+                  <a href="projects/Project 1/index.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="grid_item">
+              <div class="card">
+                <img src="image/project2.png" alt="Project 2" />
+                <div class="card_content">
+                  <h3>Job Application</h3>
+                </div>
+              </div>
+            </div>
+            <div class="grid_item">
+              <div class="card">
+                <img src="image/project3.png" alt="Project 3" />
+                <div class="card_content">
+                  <h3>Parallax Website</h3>
+                </div>
+              </div>
+            </div>
+            <div class="grid_item">
+              <div class="card">
+                <img src="image/project4.png" alt="Project 4" />
+                <div class="card_content">
+                  <h3>Landing Page</h3>
+                </div>
+              </div>
+            </div>
+            <div class="grid_item">
+              <div class="card">
+                <img src="image/project5.png" alt="Project 5" />
+                <div class="card_content">
+                  <h3>Restaurant Website</h3>
+                </div>
+              </div>
+            </div>
+            <div class="grid_item">
+              <div class="card">
+                <img src="image/project6.png" alt="Project 6" />
+                <div class="card_content">
+                  <h3>Music Website</h3>
+                </div>
+              </div>
+            </div>
+            <div class="grid_item">
+              <div class="card">
+                <img src="image/project7.png" alt="Project 7" />
+                <div class="card_content">
+                  <h3>Image Clone</h3>
+                </div>
+              </div>
+            </div>
+            <div class="grid_item">
+              <div class="card">
+                <img src="image/project8.png" alt="Project 8" />
+                <div class="card_content">
+                  <h3>Documentation Website</h3>
+                </div>
+              </div>
+            </div>
+            <div class="grid_item">
+              <div class="card">
+                <img src="image/project9.png" alt="Project 9" />
+                <div class="card_content">
+                  <h3>Blog Website</h3>
+                </div>
+              </div>
+            </div>
+            <div class="grid_item">
+              <div class="card">
+                <img src="image/make.PNG" alt="Project 10" />
+                <div class="card_content">
+                  <h3>make new friends</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="btn">
+             See more
+          </div>
+        </div>
+    </section>
+    <!-----------Portfolio-----------------
+   <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My dome Projects</h1>
+            <div id="work-list">
+                <div class="work">
+                    <img src="image/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media Web</h3>
+                        <p>ate omnis in et aliquam deleniti adipiunt consequatur?</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+               <div class="work">
+                    <img src="image/work-2.png">
+                    <div class="layer">
+                        <h3>Shopping Web</h3>
+                        <p>niti adipisci quibusdam, minima nisi explicabo. Enim beatae asperiores distinctio sunt consequatur?</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-3.png">
+                    <div class="layer">
+                        <h3>Social Media Web</h3>
+                        <p>Lrum labore qui ea voluptate omnis inEnim beatae asperiores distinctio sunt consequatur?</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>-->
+    <!------------contact-------------------->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope-open"></i>nsoumya1998@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7787846601</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <a href="image/Soumya brata sahoo..pdf" download class="btn btn2">Download CV</a>
+                  </div>
+                 <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="YourName" required>
+                        <input type="Email" name="Email" placeholder="Your Email" required>
+                        <input type="number" name="Number" placeholder="Your Number" >
+                        <textarea name="Massager" rows="3" placeholder="Your Massager"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><i class="fa-solid fa-heart"></i>Made by soumya<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </section>
+  </main>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+         function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+         } 
+
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+     <script>
+         const scriptURL = 'https://script.google.com/macros/s/AKfycbxk2Tmgj2P36YvBTzBebXQ-pLuOoIKTmu0CwXQGJAZLwwcs9PVF-_XpnZSbaeTrvgwRpA/exec'
+         const form = document.forms['submit-to-google-sheet']
+
+       form.addEventListener('submit', e => {
+      e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+     </script>
+<script>
+
+  let loadMoreBtn = document.querySelector('.btn');
+  let currentItem = 3;
+  
+  loadMoreBtn.onclick = () =>{
+     let boxes = [...document.querySelectorAll('.grid_item')];
+     for (var i = currentItem; i < currentItem + 3; i++){
+        boxes[i].style.display = 'inline-block';
+     }
+     currentItem += 3;
+  
+     if(currentItem >= boxes.length){
+        loadMoreBtn.style.display = 'none';
+     }
+  }
+  
+  </script>
+</body>
+</html>
